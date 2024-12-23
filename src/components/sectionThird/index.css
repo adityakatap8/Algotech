@@ -1,0 +1,28 @@
+.ST-content{
+    font-weight: 500;
+    font-size: 21px;
+    margin: 15px 0px 0px 10px;
+    width: 300px;
+}
+
+.ST-img{
+    width: 300px;
+}
+
+.gap
+{
+    margin-bottom: 30px;
+}
+.row.mx-auto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .batches-title {
+    text-align: center;
+  }
+  
+  .batches-title img {
+    margin-right: 10px;
+  }

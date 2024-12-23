@@ -1,13 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+/* src/index.css */
+@import '~bootstrap/dist/css/bootstrap.min.css'; 
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Itim'; /* Change font-family to Itim */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+  background-image: url('../../algotech/src/assets/background.png');
+  background-size: cover;        /* Ensures the image covers the whole body */
+  background-position: center;    /* Centers the image */
+  background-repeat: no-repeat;   /* Prevents the image from repeating */
+  min-height: 200pc;              /* Ensures that the body covers at least the viewport height */
+  margin: 0 10rem;                      /* Removes default margin */
+  padding: 0;                     /* Removes default padding */
+  font-family: 'Itim', cursive;
+  font-family: 'Itim', cursive; /* Apply Itim font globally */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }

@@ -1,0 +1,35 @@
+.card-style {
+    background-color: #E0F2FE;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    border: 1px solid black;
+  }
+  
+  .card-style {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+  }
+  
+  .pin-container {
+    position: absolute;
+    top: 443px;
+    left: 177px;
+    z-index: 2;
+  }
+  
+  .pin-image {
+    width: 380px;
+    height: 65px;
+    object-fit: contain;
+  }
+
+  .card-date{
+    margin-left: 5px;
+    font-size: 30px;
+    color: #3D37A6;
+  }
+  

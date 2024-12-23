@@ -1,0 +1,10 @@
+.gap{
+    margin-top: 10pc;
+}
+
+/* In your index.css or styles.css */
+.custom-list {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
